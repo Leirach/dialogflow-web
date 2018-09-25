@@ -2,7 +2,7 @@ export default {
     app: {
         token: "300faf2659eb4bd1ad4149de7793a21c", // <- enter your token here
         muted: false, // <- mute microphone by default
-        googleIt: true // <- ask users to google their request, in case of input.unknown action
+        googleIt: false // <- ask users to google their request, in case of input.unknown action
     },
     locale: {
         strings: {
@@ -14,8 +14,8 @@ export default {
             voiceTitle: "Go ahead, im listening..."
         },
         settings: {
-            speechLang: "en-GB", // <- output language
-            recognitionLang: "en-US" // <- input(recognition) language
+            speechLang: "es-MX", // <- output language
+            recognitionLang: "es-MX" // <- input(recognition) language
         }
     }
 }
