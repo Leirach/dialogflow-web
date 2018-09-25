@@ -6,12 +6,12 @@ export default {
     },
     locale: {
         strings: {
-            welcomeTitle: "Hello, ask something to get started",
-            welcomeDescription: `You can type "Hello" for example. Or just press on the microphone to talk`,
-            offlineTitle: "Oh, no!",
-            offlineDescription: "It looks like you are not connected to the internet, this webpage requires internet connection, to process your requests",
-            queryTitle: "Ask me something...",
-            voiceTitle: "Go ahead, im listening..."
+            welcomeTitle: "Hola, pregúntame algo para comenzar",
+            welcomeDescription: `Puedes escribir "Hola" por ejemplo.`,
+            offlineTitle: "¡Oh, no!",
+            offlineDescription: "Parece que no estas conectado a internet, esta página requeiere una conexión a internet para procesar las preguntas",
+            queryTitle: "Pregúntame algo...",
+            voiceTitle: "Te escucho..."
         },
         settings: {
             speechLang: "es-MX", // <- output language
