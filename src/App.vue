@@ -1,6 +1,5 @@
 <template>
 <section id ="app">
-
     <!-- The input -->
     <div class="query">
         <div class="wrapper" v-if="micro == false">
@@ -150,10 +149,10 @@
                 </td>
             </tr>
         </table>
-
         <br>
         <p class="copyright" v-if="answers.length > 0">Proudly powered by <a href="https://ushakov.co">Ushakov</a> & <a href="https://dialogflow.com">Dialogflow</a></p>
         <a id="bottom"></a>
+        <a href="https://slack.com/oauth/authorize?client_id=442897138562.443948858999&scope=bot,chat:write:bot"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" id="slackbutton" /></a>
     </main>
 </section>
 </template>
